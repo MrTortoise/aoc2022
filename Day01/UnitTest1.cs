@@ -46,7 +46,7 @@ public class UnitTest1
     }
 
     [Fact]
-    public void Day22()
+    public void Day12()
     {
         var input = File.ReadAllText("input.txt");
         Assert.Equal(199357, GetCaloriesTop3(input));
